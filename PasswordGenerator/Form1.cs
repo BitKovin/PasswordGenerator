@@ -179,7 +179,5 @@ namespace PasswordGenerator
                 MessageBox.Show("Error saving file: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-
     }
 }
