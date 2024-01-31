@@ -143,9 +143,10 @@
             // button2
             // 
             button2.Enabled = false;
-            button2.Location = new Point(118, 369);
+            button2.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.Location = new Point(108, 350);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(107, 42);
             button2.TabIndex = 10;
             button2.Text = "save to file";
             button2.UseVisualStyleBackColor = true;
