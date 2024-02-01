@@ -27,11 +27,11 @@ namespace PasswordGenerator
             {
                 length = int.Parse(textBox1.Text);
 
-                if (length <= 0)
+                if (length <= 3)
                 {
                     length = old;
                     textBox1.Text = old.ToString();
-                    MessageBox.Show("password must be at least 1 symbol long");
+                    MessageBox.Show("password must be at least 4 symbol long");
                 }
 
             }
